@@ -25,7 +25,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <h2>Nikhil Shinde</h2>
+        <a className="logo_link" href="#homeSection" onClick={() => scrollToSection('homeSection')} ><h2>Nikhil Shinde</h2>
+</a>
+
       </div>
       <div className="links">
       <a className="nav-link" href="#homeSection" onClick={() => scrollToSection('homeSection')} >Home</a>

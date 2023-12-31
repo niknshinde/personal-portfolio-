@@ -15,7 +15,7 @@ const About = () => {
     }
   return (
     <div className = "about_outer_main" id='aboutSection' >
-    <div className='About-contener' >
+    {/* <div className='About-contener' > */}
     <div className="about_heading">
             <h1>About me</h1>
             <h4>My introduction</h4>
@@ -45,7 +45,7 @@ const About = () => {
                  </div>
             </div>
         </div>
-    </div>
+    {/* </div> */}
     </div>
   )
 }

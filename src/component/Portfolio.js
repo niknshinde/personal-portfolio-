@@ -29,14 +29,14 @@ const Portfolio = () => {
             <div className="title">
                    <h2>News website</h2>
                 <div className='portfolio_button'>
-                <a className='aformpbn1' href="https://github.com/niknshinde/info-wave-website" target="_blank"><button className='pbtn pbtn1' >GitHub</button></a>
+                <a className='aformpbn1' href="https://github.com/niknshinde/Cat_bucket" target="_blank"><button className='pbtn pbtn1' >GitHub</button></a>
                     <a href="https://cat-bucket.netlify.app/"><button className='pbtn pbtn2'>Live Demo</button></a>
                 </div>
             </div>
          </div>
 
 
-         <div className="portfolio_box">
+         {/* <div className="portfolio_box">
             <img className='portimg' src="/images/pimg3.png" alt="pimg1" />
             <div className="title">
                    <h2>News website</h2>
@@ -45,7 +45,7 @@ const Portfolio = () => {
                     <a href="https://cat-bucket.netlify.app/"><button className='pbtn pbtn2'>Live Demo</button></a>
                 </div>
             </div>
-         </div>
+         </div> */}
 
     </div>
     </div>
