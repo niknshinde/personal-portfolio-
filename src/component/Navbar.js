@@ -18,19 +18,31 @@ function Navbar() {
         block: 'start',
       });
     }
-
+    
     ontoggle();
+  };
+
+  const scrollToSection2 = (sectionId) => {
+    const sectionElement = document.getElementById(sectionId);
+
+    if (sectionElement) {
+      sectionElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+    
   };
 
   return (
     <nav className="navbar">
       <div className="logo">
-        <a className="logo_link" href="#homeSection" onClick={() => scrollToSection('homeSection')} ><h2>Nikhil Shinde</h2>
+        <a className="logo_link" href="#homeSection" onClick={() => scrollToSection2('homeSection')} ><h2>Nikhil Shinde</h2>
 </a>
 
       </div>
       <div className="links">
-      <a className="nav-link" href="#homeSection" onClick={() => scrollToSection('homeSection')} >Home</a>
+      <a className="nav-link" href="#homeSection" onClick={() => scrollToSection('homeSection') } >Home</a>
         <a className="nav-link" href="#aboutSection" onClick={() => scrollToSection('aboutSection')} >About</a>
         <a className="nav-link" href="#skillsSection" onClick={() => scrollToSection('skillsSection')}>Skills</a>
         <a className="nav-link" href="#portfolioSection" onClick={() => scrollToSection('portfolioSection')}>Portfolio</a>
