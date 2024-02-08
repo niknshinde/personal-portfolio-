@@ -40,7 +40,7 @@ const Contact = () => {
     const { name, email, message } = formData;
 
     try {
-      const response = await fetch("https://bk-porfolio.onrender.com/formData", {
+      const response = await fetch("https://portfolio-backend-o9xlx35ry-niknshindes-projects.vercel.app/formData", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
